@@ -1,0 +1,52 @@
+.card1 {
+  border: 1px solid red;
+  border-radius: 10px;
+  min-height: 27vh;
+  width: 36vw;
+  margin-right: 50px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movieName {
+  color: black;
+  position: -ms-page;
+  margin-top: 2vh;
+  z-index: 1;
+}
+
+.card2 {
+  border: 1px solid red;
+  border-radius: 10px;
+  min-height: 27vh;
+  width: 36vw;
+  margin-right: 50px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 1023px) and (max-width: 3000px) {
+  .card1 {
+    border-radius: 10px;
+    min-height: 47vh;
+    width: 20vw;
+    margin-right: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 465px) and (max-width: 1025px) {
+  .card1 {
+    border-radius: 10px;
+    min-height: 47vh;
+    width: 33vw;
+    margin-right: 50px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

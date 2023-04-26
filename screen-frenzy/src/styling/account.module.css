@@ -1,0 +1,80 @@
+.login {
+  position: relative;
+  top: 20vh;
+  height: 45vh;
+  background-color: #d16014;
+  width: 36vh;
+  left: 13%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.loginText {
+  font-size: 1.6em;
+  position: absolute;
+  left: 35%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  top: 2vh;
+}
+
+.submitme {
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+  border-radius: 10px;
+}
+
+.passwordField {
+  position: absolute;
+  top: 20vh;
+  left: 20vw;
+}
+
+.passwordLabel {
+  position: absolute;
+  top: 20vh;
+}
+
+.passwordError {
+  position: absolute;
+  top: 30vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: white;
+}
+
+.emailField {
+  position: absolute;
+  top: 12vh;
+  left: 20vw;
+}
+
+.emailLabel {
+  position: absolute;
+  top: 12vh;
+  left: 5vw;
+}
+
+.emailError {
+  position: absolute;
+  top: 16vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: white;
+}
+
+.registerLink {
+  font-size: 1.2em;
+  position: absolute;
+  top: 30vh;
+  left: 50vw;
+  color: wheat;
+}
+
+.registerLink:click {
+  text-decoration: underline;
+  color: white;
+}

@@ -1,0 +1,107 @@
+.allform {
+  background-color: #d16014;
+  width: 90vw;
+  position: relative;
+  top: 10vh;
+  margin: auto;
+  height: 50vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.Logo {
+  font-size: 1.9em;
+  margin-left: 30vw;
+}
+
+.submitme {
+  position: absolute;
+  top: 40vh;
+  left: 10vw;
+  border-radius: 10px;
+}
+
+.cpasswordField {
+  position: absolute;
+  top: 32vh;
+  left: 20vw;
+}
+
+.cpasswordLabel {
+  position: absolute;
+  top: 32vh;
+}
+
+.cpasswordError {
+  position: absolute;
+  top: 36vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: rgb(41, 38, 38);
+}
+
+.passwordField {
+  position: absolute;
+  top: 25vh;
+  left: 20vw;
+}
+
+.passwordLabel {
+  position: absolute;
+  top: 25vh;
+}
+
+.passwordError {
+  position: absolute;
+  top: 29vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: rgb(41, 38, 38);
+}
+
+.emailField {
+  position: absolute;
+  top: 18vh;
+  left: 20vw;
+}
+
+.emailLabel {
+  position: absolute;
+  top: 18vh;
+  left: 5vw;
+}
+
+.emailError {
+  position: absolute;
+  top: 22vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: rgb(41, 38, 38);
+}
+
+.usernameLabel {
+  position: absolute;
+  top: 10vh;
+}
+
+.usernameField {
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+}
+
+.usernameError {
+  position: absolute;
+  top: 14vh;
+  left: 20vw;
+  font-size: 0.8em;
+  color: rgb(41, 38, 38);
+}
+
+.alreadyAcc {
+  position: absolute;
+  top: 40vh;
+  left: 35vw;
+}

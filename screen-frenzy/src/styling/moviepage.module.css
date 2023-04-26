@@ -1,0 +1,154 @@
+.navHead {
+  position: absolute;
+  top: 10vh;
+  font-weight: bold;
+  font-size: 1.7em;
+  margin: 4% 4%;
+}
+
+.navLocation {
+  position: absolute;
+  top: 20vh;
+}
+
+.navLocation ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: -5vw;
+}
+
+.navLocation ul li {
+  margin-right: 8vw;
+  font-size: 0.9em;
+}
+
+.selectItems {
+  position: absolute;
+  top: 30vh;
+}
+
+.selectItems ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: -7vw;
+}
+
+.selectItems ul li {
+  margin-right: 6vw;
+  font-size: 0.9em;
+}
+
+.selectStyle {
+  height: 5vh;
+  border: 1px solid orange;
+  font-size: 1.2em;
+  border-radius: 30px;
+}
+
+.selectStyle option {
+  font-size: 0.7em;
+}
+
+.movieContainer {
+  position: absolute;
+  top: 50vh;
+  width: 100vw;
+  height: 650vw;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movieItems {
+  width: 45%;
+  border: 1px solid red;
+  height: 30vh;
+  margin-left: 4vw;
+  margin-bottom: 10vh;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.movieName {
+  color: black;
+  position: -ms-page;
+  margin-top: 31vh;
+  z-index: 1;
+}
+
+@media (min-width: 1023px) and (max-width: 3000px) {
+  .movieItems {
+    width: 45%;
+    border: 1px solid red;
+    height: 30vh;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .movieContainer {
+    position: absolute;
+    top: 50vh;
+    width: 100vw;
+    height: 850vw;
+
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 890px) {
+  .movieItems {
+    width: 40%;
+    border: 1px solid red;
+    height: 55vh;
+  }
+  .movieName {
+    margin-top: 55vh;
+  }
+}
+
+@media (min-width: 891px) and (max-width: 1190px) {
+  .movieContainer {
+    height: 205vw;
+  }
+
+  .movieItems {
+    width: 20%;
+    border: 1px solid red;
+    height: 55vh;
+  }
+  .movieName {
+    margin-top: 55vh;
+  }
+}
+
+@media (min-width: 1191px) and (max-width: 4000px) {
+  .movieContainer {
+    height: 175vw;
+  }
+
+  .movieItems {
+    width: 20%;
+    border: 1px solid red;
+    height: 64vh;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+  }
+
+  .movieName {
+    margin-top: 65vh;
+  }
+}

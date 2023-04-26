@@ -1,0 +1,58 @@
+.navHead {
+  position: absolute;
+  top: 10vh;
+  font-weight: bold;
+  font-size: 4.7em;
+  margin: 4% 4%;
+}
+
+@media (min-width: 1023px) and (max-width: 3000px) {
+  .navHead {
+    font-size: 8em;
+    margin-left: 14%;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 890px) {
+  .movieItems {
+    width: 40%;
+    border: 1px solid red;
+    height: 55vh;
+  }
+  .movieName {
+    margin-top: 55vh;
+  }
+}
+
+@media (min-width: 891px) and (max-width: 1190px) {
+  .movieContainer {
+    height: 205vw;
+  }
+
+  .movieItems {
+    width: 20%;
+    border: 1px solid red;
+    height: 55vh;
+  }
+  .movieName {
+    margin-top: 55vh;
+  }
+}
+
+@media (min-width: 1191px) and (max-width: 4000px) {
+  .movieContainer {
+    height: 175vw;
+  }
+
+  .movieItems {
+    width: 20%;
+    border: 1px solid red;
+    height: 64vh;
+    margin-left: 4vw;
+    margin-bottom: 10vh;
+  }
+
+  .movieName {
+    margin-top: 65vh;
+  }
+}
